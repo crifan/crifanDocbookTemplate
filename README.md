@@ -40,6 +40,13 @@ Crifan的Docbook的模板
   * books
   * tools
 
+## 其他说明
+
+记得之前最后一次使用（Win系统中）的Docbook环境时，出现过：最终编译失败的问题。
+
+具体的book，暂时记不清了。
+
+暂时不去深究。等后续，在Mac中重建Docbook环境时，再去解决。
 
 ## TODO
 
