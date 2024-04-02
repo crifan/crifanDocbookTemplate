@@ -1,0 +1,11 @@
+.DS_Store
+
+books/
+
+!books/entity_common_multi_format_en.xml
+!books/entity_common_multi_format.xml
+!books/entity_common_publish_info_en.xml
+!books/entity_common_publish_info.xml
+!books/Makefile
+!books/remove_bak.sh
+

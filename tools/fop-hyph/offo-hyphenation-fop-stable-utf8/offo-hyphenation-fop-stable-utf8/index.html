@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="Apache Forrest" name="Generator">
+<meta name="Forrest-version" content="0.6">
+<meta name="Forrest-skin-name" content="tigris">
+<style type="text/css">
+          /*  */ 
+          @import "skin/tigris.css";  
+          @import "skin/quirks.css"; 
+          @import "skin/inst.css"; 
+         /*   */
+        </style>
+<link href="skin/forrest.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="skin/tigris.js"></script>
+<script src="skin/menu.js" language="javascript" type="text/javascript"></script>
+<title>FOP XML Hyphenation Patterns</title>
+<meta content="text/css" http-equiv="Content-style-type">
+</head>
+<body class="composite" onload="focus()">
+<div id="banner">
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+<tr>
+<td align="left"></td><td align="center">
+<div>
+<a href="http://offo.sourceforge.net/"><img class="logoImage" alt="OFFO" src="images/project.png"></a>
+</div>
+</td><td valign="top" align="right">
+</td>
+</tr>
+</table>
+</div>
+<div id="toptabs" class="tabs">
+<table border="0" cellspacing="0" cellpadding="4">
+<tr>
+<th><a class="base-selected" href="index.html">Hyphenation</a></th>
+</tr>
+</table>
+</div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="breadcrumbs">
+<tr>
+<td></td><td>
+<div align="right">
+<script type="text/javascript" language="JavaScript"><!--
+                 document.write("Published: " + document.lastModified);
+                 //  --></script>
+</div>
+</td>
+</tr>
+</table>
+<table id="main" width="100%" cellpadding="4" cellspacing="0" border="0">
+<tr valign="top">
+<td width="20%" id="leftcol">
+<div id="navcolumn">
+<div class="toolgroup" id="projecttools">
+<div class="label">
+<strong>Content</strong>
+</div>
+<div class="menu">
+<div class="body">
+<div>
+<a href="index.html">Index</a>
+</div>
+      
+<!-- <div>
+<a href="licenses.html">Licenses</a>
+</div> -->
+      
+<div>
+<a href="installation.html">Install</a>
+</div>
+
+<div class="label">
+<strong>Web links</strong>
+</div>
+      
+<div>
+<a href="http://offo.sourceforge.net/">OFFO home page</a>
+</div>
+      
+<div>
+<a href="http://sourceforge.net/projects/offo">Download</a>
+</div>
+      
+<div>
+<a href="http://xmlgraphics.apache.org/fop/">FOP</a>
+</div>
+    
+</div>
+</div>
+<div class="toolgroup" id="admfun">
+<div class="label">
+<strong>Credits</strong>
+</div>
+<div class="body">
+<table>
+<tr>
+<td></td><td class="logos" height="5" colspan="4"><a href="http://xmlgraphics.apache.org/fop/team.html#cl">Design: Web Maestro Clay Leeds</a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="strut">&nbsp;</div>
+</td><td>
+<div class="content">
+<div align="right" id="topmodule">
+<table width="100%" cellpadding="3" cellspacing="0" border="0">
+<tr>
+<td class="tasknav">&nbsp;</td><td class="tasknav" id="issueid">
+<div align="right">
+<div id="skinconf-txtlink"></div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="bodycol">
+<div id="apphead">
+<h2>
+<em>FOP XML Hyphenation Patterns</em>
+</h2>
+</div>
+<div class="app" id="projecthome">
+<ul class="minitoc">
+<li>
+<a href="#FOP+XML+Hyphenation+Patterns">FOP XML Hyphenation Patterns</a>
+</li>
+</ul>
+	
+<a name="N1000C"></a><a name="FOP+XML+Hyphenation+Patterns"></a>
+<div class="h3">
+<h3>FOP XML Hyphenation Patterns</h3>
+	  
+
+	  
+<p>The project &lsquo;Objects For Formatting Objects&rsquo; (OFFO) hosts
+hyphenation pattern files in the XML format used by the Formatting
+Object Processor <a href="http://xmlgraphics.apache.org/fop/">Apache Fop</a>.</p>
+
+<p>Recently the TeX community have converted their hyphenation pattern files to utf-8 format. Most of such pattern files can be trivially converted to pattern files in the XML format used by FOP. Therefore the OFFO maintainer joined the maintainers of the TeX hyphenation patterns, and in the future the hyphenation patterns offered by OFFO will be simple conversions from the TeX patterns.</p>
+
+<p>This is the first release of the TeX utf-8 patterns for FOP. There are a few unsolved problems:</p>
+
+<ol>
+<li>Naming: FOP uses the POSIX naming convention <tt>ll_CC</tt> for language and country. There are a couple of patterns that do not fit into this scheme.<ul>
+<li>When a language uses various alternative scripts, the script name is appended to the file name, e.g. <tt>sh_Cyrl</tt> and <tt>sh_Latn</tt>. The user will have to rename the pattern file of his preferred script in the jar file by removing the script suffix. The final solution is probably to merge the patterns for different scripts in one pattern file.</li>
+<li>When a language uses various alternative spelling rules, some descriptive suffix is appended to the file name, e.g. <tt>de_1901</tt>; users who prefer these pattern files over the default ones will have to rename the pattern files in the jar file.</li>
+</ul></li>
+<li>Licenses: No overview of the licenses has yet been made. To find information about the license, one has to look into the comments in the XML or TeX pattern files.</li>
+<li>Comments: The conversion from TeX to XML is done by a program. Comments provide a problem, because in TeX the trailing new line is part of the comment. In comment sections in XML this is less desirable, and we have done our best to format comments in a legible way. However, at the moment the formatting is spoiled by text data between comments (usually blank lines), and all following comments are on a single line.</li>
+<li>Classes: The TeX patterns, and therefore also the XML patterns do not contain <tt>classes</tt>, i.e. a list of characters used in words (Unicode class Letter). Since 3 September 2009 these classes are built into FOP. Therefore these patterns can only be used with FOP versions created after that date. Until now no release was made after that date, and these patterns only work with code from the subversion repository.</li>
+<li>Not included:<ul>
+<li>There are no separate hyphenation patterns for Norwegian Nynorsk and Norwegian Bokmal. Instead, there is a single pattern file for Norwegian.</li>
+<li>There are no patterns for esperanto, because the TeX pattern file is not in a format that can be converted to XML.</li>
+<li>There are no patterns for hungarian, because the TeX pattern file contains too many patterns for my machine to compile (stack overflow).</li>
+</ul></li>
+</ol>
+
+<p>The TeX hyphenation patterns are available from <a href="http://www.ctan.org/tex-archive/language/hyph-utf8/tex/generic/hyph-utf8/patterns/">CTAN</a> or <a href="http://tug.org/svn/texhyphen/trunk/hyph-utf8/tex/generic/hyph-utf8/patterns/">SVN</a>. The program files which do the conversion to XML will be added to the same SVN repository.</p>
+
+<p>This is the package:</p>
+
+<dl>
+
+<dt>offo-hyphenation-fop-stable-utf8</dt>
+		
+<dd>the hyphenation pattern files compiled for FOP's stable
+distribution fop-0.9<i>x</i>. <i>Note: These patterns can only be used with FOP versions later than 3 September 2009.</i></dd> 
+	  
+					</dl>
+
+<p>The download page contains the following additional packages:</p>
+	  
+<dl>
+		
+<dt>offo-hyphenation-utf8</dt>
+		
+<dd>the hyphenation pattern files in FOP XML format. <i>Note: These patterns can only be used with FOP versions later than 3 September 2009.</i></dd> 
+		
+</dl>
+	  
+<p>The hyphenation patterns come with various Open Source
+	  licenses, see the comments in the source files.</p>
+
+<p>For installation, see the <a href="installation.html">installation
+instructions</a></p>
+
+</div>
+
+<div class="h3">
+<h3>Version history</h3>
+
+<p>Version 0.1 (25 November 2009): Created the utf-8 packages</p>
+
+</div>
+  
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<div id="footer">
+<table cellpadding="4" cellspacing="0" border="0">
+<tr>
+<td><a href="http://sourceforge.net/"><img class="logoImage" alt="" src="http://sourceforge.net/sflogo.php?group_id=116740"></a></td><td><a href="http://opensource.org/licenses">
+          Copyright &copy; 2009&#x2013;2009&nbsp;
+          OFFO</a>
+      All rights reserved.
+            <br>
+<script type="text/javascript" language="JavaScript"><!--
+              document.write(" - "+"Last Published: " + document.lastModified);
+              //  --></script>
+<div id="feedback">
+    Send feedback about the website to the <a href="mailto:fop-users@xmlgraphics.apache.org">fop-user mailing list</a> or to the <a id="feedbackto" href="mailto:spepping@sourceforge.net?subject=Feedback about OFFO%C2%A0hyphenation/index.html">OFFO project maintainers</a>.
+</div>
+</td><td nowrap="nowrap" align="right"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

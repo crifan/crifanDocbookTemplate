@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalog
+   PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog V1.0//EN"
+   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd"
+[
+
+<!-- <!ENTITY docbook_xsl_ns "docbook-xsl-ns-1.76.1"> -->
+<!-- <!ENTITY docbook_xsl_ns "docbook-xsl-ns-1.77.1"> -->
+<!ENTITY docbook_xsl_ns "docbook-xsl-ns-1.78.1">
+
+<!-- ============== HOME ============== -->
+<!ENTITY xsl_ns_base_cygwin "/cygdrive/e/dev_root/docbook/dev/tools/&docbook_xsl_ns;">
+<!ENTITY xsl_ns_base_cmd    "E:/dev_root/docbook/tools/&docbook_xsl_ns;">
+<!ENTITY config_base_cmd    "E:/dev_root/docbook/dev/config/&docbook_xsl_ns;">
+
+<!-- ============== OFFICE ============== -->
+<!-- <!ENTITY xsl_ns_base_cygwin "/home/CLi/develop/docbook/tools/&docbook_xsl_ns;"> -->
+
+<!-- ============== UNIFY ============== -->
+
+]
+>
+
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    
+    <!-- <public publicId="crl.ent"
+        uri="&config_dir;/entity/crl.ent"/> -->
+    <public publicId="crl.ent"
+        uri="../entity/crl.ent"/>
+    
+    <!--<system systemId="crl.ent"
+        uri="file:///E:/Dev_Root/docbook/dev/config/entity/crl.ent"/>-->
+
+    <!-- <rewriteURI
+        uriStartString="http://www.crifan.com/files/res/docbook/entity/"
+        rewritePrefix="&config_dir;/entity/" /> -->
+    <!-- <rewriteURI
+        uriStartString="http://www.crifan.com/files/res/docbook/entity/"
+        rewritePrefix="../entity/" /> -->
+
+    <!-- <group  xml:base="../../../tools/&docbook_xsl_ns;/" > -->
+    <!-- <group  xml:base="&xsl_ns_base_cygwin;/" > -->
+    <group  xml:base="&xsl_ns_base_cmd;/" >
+        <!-- 
+        <rewriteURI  uriStartString="/tool/xsl_ns/html/"  
+                    rewritePrefix="html/" />
+        -->
+
+        <uri name="docbook_html.xsl"
+            uri="html/docbook.xsl" />
+
+        <uri name="docbook_fo.xsl"
+            uri="fo/docbook.xsl"/>
+    </group>
+    
+    <!-- http://xerces.apache.org/xml-commons/components/resolver/resolver-article.html -->
+    <!-- http://www.sagehill.net/docbookxsl/WriteCatalog.html -->
+
+    <!--<group  xml:base="/E/Dev_Root/docbook/dev/config/docbook-xsl-ns-1.77.1/" >-->
+    <group xml:base="&config_base_cmd;/">
+    <!-- <group xml:base="../../config/&docbook_xsl_ns;/"> -->
+    <!-- <group xml:base="../../config/&docbook_xsl_ns;/"> -->
+        <uri name="docbook_html_crl.xsl"
+            uri="html/single/docbook_crl.xsl"/>
+
+        <uri name="chunk_html_crl.xsl"
+            uri="html/multi/chunk_crl.xsl"/>
+            
+        <uri name="docbook_htmlhelp_crl.xsl"
+            uri="htmlhelp/htmlhelp_crl.xsl"/>
+            
+        <uri name="docbook_fo_crl.xsl"
+            uri="fo/docbook_crl.xsl"/>
+
+        <uri name="docbook_webhelp_crl.xsl"
+            uri="webhelp/webhelp_crl.xsl"/>
+
+    </group>
+</catalog>
+

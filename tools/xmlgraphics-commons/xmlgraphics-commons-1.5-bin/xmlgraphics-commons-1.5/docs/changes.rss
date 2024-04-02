@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91"><channel><title>Apache XML Graphics Commons (1.5) Changes</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Apache XML Graphics Commons
+              (
+              1.5
+              ) Changes
+            </description><language>en-us</language>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 53408)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53408)
+        
+        :
+        
+        Add two PNG image loaders, one using internal XGC PNG code, the other using an externally supplied IDAT chunk (for raw decoding).
+       Thanks to Luis Bernardo, Matthias Reischenbacher.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 53327)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 53327)
+        
+        :
+        
+        Fix corner cases involving long/double conversion and rounding error in double division when rounding 5E-N for certain N.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 53327)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 53327)
+        
+        :
+        
+        Fix determination of use of precise vs fast formatting in order to fix regression with value 5.22534294505995E-4, decimals: 17, precision: 17.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 53352)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53352)
+        
+        :
+        
+        Upgrade to checkstyle-5.5 and ensure no warnings.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 51149)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 51149)
+        
+        :
+        
+        Improve performance for certain kinds of PNG images.
+       Thanks to Luis Bernardo.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 53327)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53327)
+        
+        :
+        
+        Fix handling of values less than 1E-300.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 43940)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 43940)
+        
+        :
+        
+        Fix handling of NaN, {+,-}Infinity, and other edge cases in double format utility.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 53184)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53184)
+        
+        :
+        
+        Unify date formatting between FOP and XGC as well as tidying the date format code.
+       Thanks to Robert Meyer.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 53177)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53177)
+        
+        :
+        
+        Fix for XGC when rendering PostScript using SVG being drawn upside down when using a custom affine transform.
+       Thanks to Robert Meyer.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 43940)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 43940)
+        
+        :
+        
+        Use new double format utility.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 43940)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        GA
+          (fixes bug 43940)
+        
+        :
+        
+        Add double format utility to improve thread safety and performance.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 50497)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 50497)
+        
+        :
+        
+        Support rdf:resource attributes in XMP.
+       Thanks to Brian Carlson.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 47174)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 47174)
+        
+        :
+        
+        Should never use Error to report runtime errors.
+       Thanks to Sebastian Bazley.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 47175)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 47175)
+        
+        :
+        
+        Ensure that throwables have meaningful messages.
+       Thanks to Sebastian Bazley.</description></item>
+      <item><title>Apache XML Graphics Commons Code update</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+        :
+        
+        Minor build improvements to eliminate warning and parameterize junit formatting.
+        Eliminate (5) deprecation warnings.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 51911)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        PH
+          (fixes bug 51911)
+        
+        :
+        
+        Support for T.4 Group 3 1D encoding.
+       Thanks to Mehdi Houshmand.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 51039)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 51039)
+        
+        :
+        
+        Fixed a bug formatting ISO 8601 dates with negative two-digit time zones.
+       Thanks to Florian Barbera, Vila Bollain.</description></item>
+      <item><title>Apache XML Graphics Commons Code remove</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code remove
+        by
+        JM
+        :
+        
+        Removed dependency on com.sun classes to achieve compatibility with Apache Harmony,
+        OpenJDK and possibly other JVMs. 
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code remove</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code remove
+        by
+        JM
+        :
+        
+        Removal of the deprecated TextHandler.drawString(String, float, float) method.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 49703)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+          (fixes bug 49703)
+        
+        :
+        
+        Various code style fixes
+       Thanks to Glenn Adams.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 49696)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 49696)
+        
+        :
+        
+        Allow to override priority when registering an ImageWriter on the ImageWriterRegistry.
+       Thanks to Joshua Marquart.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Fix for TIFFs which report zero as their resolution. This resulted in an exception.
+      </description></item>
+    
+    
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 49364)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 49364)
+        
+        :
+        
+        Two properties didn't get copied in copy constructor of PSState.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 49339)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+          (fixes bug 49339)
+        
+        :
+        
+        Optimization for PostScript state handling in (E)PSDocumentGraphics2D.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 49338)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+          (fixes bug 49338)
+        
+        :
+        
+        PS output: Using shorthand procedures for rectangles instead of the generic shape processor.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code update
+          (bug 49337)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+          (fixes bug 49337)
+        
+        :
+        
+        Moved method disableClipping from AbstractPSDocumentGraphics2D to PSGraphics2D.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 49250)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 49250)
+        
+        :
+        
+        Added getter and setter for enabling/disabling comments in PSGenerator.
+       Thanks to Julien Aymé.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 49056)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 49056)
+        
+        :
+        
+        Small optimization which only generates code for a clipping area if an element is not
+        fully inside the clipping area.
+       Thanks to Calixte Denizet.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 48797)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 48797)
+        
+        :
+        
+        Added option to enable/disable the generation of compact vs. verbose PostScript code.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 48797)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 48797)
+        
+        :
+        
+        Added shorthands for many PostScript commands to get more compact PostScript files.
+       Thanks to Calixte Denizet.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 48395)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 48395)
+        
+        :
+        
+        Added code for supporting the AdobeStandardCyrillic encoding.
+       Thanks to Andrey Koltunov.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 48237)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        CB
+          (fixes bug 48237)
+        
+        :
+        
+        Added interface for Color Conversions. 
+       Thanks to Peter Hancock.</description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added support for configurable additional penalties for preloader, loader and converter
+        plug-ins in the ImageImplRegistry (in addition to the hard-coded penalties).
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix for detecting multi-strip CCITT-encoded TIFFs.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 48264)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 48264)
+        
+        :
+        
+        Enabled native encoding of CMYK images for PostScript output.
+       Thanks to Venkat Reddy.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix: Properly handle file URLs where URL.getHost() is an empty string.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix: Clip area got lost while cloning GraphicContext.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        MB
+        :
+        
+        Support loading of ICC Profiles from PNG and JPEG when used through ImageIO.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Switched from linear RGB to sRGB for the fallback color model, in order to avoid trouble 
+        with some images (CMYK TIFF, for example).
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix: reset graphic state when a page is finished in PostScript.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        VH
+        :
+        
+        Bugfix: glyph names starting with &#8216;u&#8217; but not in the &#8216;official&#8217; glyph list could cause a 
+        StringIndexOutOfBoundsException because they were parsed as u1234-like unicode values.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added 60 seconds expiration for invalid URIs in the image cache to recover from
+        temporarily unavailable images.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 46583)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 46583)
+        
+        :
+        
+        Added TexturePaint support for PSGraphics2D (PostScript tiling patterns).
+       Thanks to Ji&#345;í Kunhart.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix: Streams were not closed in Service class.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Catching IllegalArgumentException in XMPSerializer when the Transformer implementation
+        in use doesn't support the INDENT key.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 46292)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        AC
+          (fixes bug 46292)
+        
+        :
+        
+        Added the ability to assign a string value for a key in a postscript dictionary.
+       Thanks to Ji&#345;í Kunhart.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 45789)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 45789)
+        
+        :
+        
+        Made loading images via Image I/O more robust: A PNG with a zero resolution
+        should fall back to the default resolution.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 45835)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 45835)
+        
+        :
+        
+        JPEGPreloader: Fixed interpretation of JPEG resolution when "dots per centimeter"
+        is specified.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        XMP framework: Added support for the structure property shorthand form and for
+        specifying simple property values as attributes on rdf:Description elements.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added RefinedImageFlavor to the image loading framework for better refinement
+        of image flavors.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix: Added missing start/endPrefixMapping() calls when serializing XMP packets.
+      </description></item>
+    
+    
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 44902)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 44902)
+        
+        :
+        
+        Made file URLs with a host (as happens when using UNC paths) work when loading images.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        MB
+        :
+        
+        Bugfix for classpath resources: the code doesn't just check the system class loader anymore.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix for a potential multi-threading issue concerning the use of the java.text package.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added fallbacks for Type 1 fonts which don't have the normal "one", "two" etc. glyphs,
+        but actually only provide "oneoldstyle", "twooldstyle" etc.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix for extracting ICC color profiles from JPEG images.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added an image loader for XML Graphics Commons' internal TIFF codec.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Fixed two cases of unclosed input streams in image loader code.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix for unhandled NumberFormatException in Glpyhs when a unknown glyph name starting
+        with "u" is found.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix for ImageEncodingHelper which produced false results if an image's sample model
+        used BGR instead of RGB.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added image processing hints to ignore an optionally embedded color profile in JPEG images.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Fixed behaviour for the cases where a corrupt PNG image is encountered.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix for EOFException when pre-loading very small PNG images (file size &lt; 88 bytes).
+      </description></item>
+    
+    
+      <item><title>Apache XML Graphics Commons Code update</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+        :
+        
+	Support for Java 1.3 has been dropped. Java 1.4 or later is required now.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 44466)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 44466)
+        
+        :
+        
+	Image Loading: Support for passing in SAXSource instance.
+       Thanks to Adam Strzelecki.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+	Bugfix for ISO 8601 date formatting with negative time zones in the XMP package.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+	The package org.apache.xmlgraphics.image.loader was added. It contains a general
+	image loading framework for various image formats (bitmap &amp; vector).
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+	XMP: Added support for structured properties.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+	Bugfix for XMP serialization: arrays with only one entry were serialized as
+	simple property which could lead to information loss for merge operations.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code update</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+        :
+        
+	PostScript: Improved PSImageUtils by introducing the ImageEncoder interface and
+	allowing for streams instead of byte arrays for data transfer which can lower
+	memory consumption.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+	PostScript: Fixed %%EOF checking for nested documents.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+	PostScript: Improved robustness of DSC parsing (multi-line comments with no value
+	on the first line don't cause crashes anymore, fallback for unparsable DSC comments).
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+	PostScript: Added classes for "BoundingBox" DSC comments.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix
+          (bug 43120)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 43120)
+        
+        :
+        
+	Fixed a possible NPE in the TIFF codec (in the TIFFImage constructor).
+       Thanks to Sergey Orlov.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 42980)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 42980)
+        
+        :
+        
+	Added support for classpath resources (find files in JAR files in the classpath
+	using their MIME type)
+       Thanks to Max Berger.</description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 43069)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        CB
+          (fixes bug 43069)
+        
+        :
+        
+        Application of the patch in Bugzilla 43069:
+        New Macro safe-set-page-device which guards
+        against the possibility of invalid/unsupported postscript key/values being
+        issued to the implementing postscript page device
+       Thanks to Adrian Cumiskey.</description></item>		
+    
+    
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Fixed literal text string escaping in PSGenerator. Some characters were not properly
+        escaped.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add
+          (bug 42507)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+          (fixes bug 42507)
+        
+        :
+        
+        Added support for CMYK and GRAY color spaces for PSGenerator
+        (moved there from PSGraphics2D).
+       Thanks to Adrian Cumiskey.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Fixed the PDF/A namespace according to ISO-19005-1:2005/Cor.1:2007 and deprecated the
+        use of the draft PDF/A namespace used by Adobe Acrobat 7.x.
+      </description></item>
+    
+    
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Added the start of an XMP metadata framework.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Various fixes and improvements in the ImageWriter abstraction.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        ImageWriter abstraction now supports writing multi-page formats like TIFF.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        ImageWriter implementation for TIFF output using Image I/O API.
+      </description></item>
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Default implementation for AbstractGraphics2D.drawText(ACI, float, float) so
+        PSGraphics2D supports painting text using the AttributedCharacterIterator.
+       Thanks to Max Berger.</description></item>
+      <item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Bugfix: The generation of the PostScript setdash command was assuming that
+        only integer values can be used but that isn't the case.
+      </description></item>
+    
+    
+      <item><title>Apache XML Graphics Commons Code add</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        JM
+        :
+        
+        Initial release with several components from Batik and FOP: 
+        Image codecs, Image writer abstraction, I/O classes, Java2D helpers, PostScript library 
+        with Graphics2D implementation.
+      </description></item>
+    
+  
+  
+<item><title>Apache XML Graphics Commons Code fix
+          (bug 53408)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53408)
+        
+        :
+        
+        Add two PNG image loaders, one using internal XGC PNG code, the other using an externally supplied IDAT chunk (for raw decoding).
+       Thanks to Luis Bernardo, Matthias Reischenbacher.</description></item><item><title>Apache XML Graphics Commons Code update
+          (bug 53327)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 53327)
+        
+        :
+        
+        Fix corner cases involving long/double conversion and rounding error in double division when rounding 5E-N for certain N.
+       Thanks to Julien Aymé.</description></item><item><title>Apache XML Graphics Commons Code update
+          (bug 53327)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 53327)
+        
+        :
+        
+        Fix determination of use of precise vs fast formatting in order to fix regression with value 5.22534294505995E-4, decimals: 17, precision: 17.
+       Thanks to Julien Aymé.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 53352)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53352)
+        
+        :
+        
+        Upgrade to checkstyle-5.5 and ensure no warnings.
+      </description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 51149)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 51149)
+        
+        :
+        
+        Improve performance for certain kinds of PNG images.
+       Thanks to Luis Bernardo.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 53327)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53327)
+        
+        :
+        
+        Fix handling of values less than 1E-300.
+       Thanks to Julien Aymé.</description></item><item><title>Apache XML Graphics Commons Code update
+          (bug 43940)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 43940)
+        
+        :
+        
+        Fix handling of NaN, {+,-}Infinity, and other edge cases in double format utility.
+       Thanks to Julien Aymé.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 53184)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53184)
+        
+        :
+        
+        Unify date formatting between FOP and XGC as well as tidying the date format code.
+       Thanks to Robert Meyer.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 53177)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 53177)
+        
+        :
+        
+        Fix for XGC when rendering PostScript using SVG being drawn upside down when using a custom affine transform.
+       Thanks to Robert Meyer.</description></item><item><title>Apache XML Graphics Commons Code update
+          (bug 43940)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+          (fixes bug 43940)
+        
+        :
+        
+        Use new double format utility.
+       Thanks to Julien Aymé.</description></item><item><title>Apache XML Graphics Commons Code add
+          (bug 43940)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code add
+        by
+        GA
+          (fixes bug 43940)
+        
+        :
+        
+        Add double format utility to improve thread safety and performance.
+       Thanks to Julien Aymé.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 50497)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 50497)
+        
+        :
+        
+        Support rdf:resource attributes in XMP.
+       Thanks to Brian Carlson.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 47174)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 47174)
+        
+        :
+        
+        Should never use Error to report runtime errors.
+       Thanks to Sebastian Bazley.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 47175)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        GA
+          (fixes bug 47175)
+        
+        :
+        
+        Ensure that throwables have meaningful messages.
+       Thanks to Sebastian Bazley.</description></item><item><title>Apache XML Graphics Commons Code update</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        GA
+        :
+        
+        Minor build improvements to eliminate warning and parameterize junit formatting.
+        Eliminate (5) deprecation warnings.
+      </description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 51911)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        PH
+          (fixes bug 51911)
+        
+        :
+        
+        Support for T.4 Group 3 1D encoding.
+       Thanks to Mehdi Houshmand.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 51039)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 51039)
+        
+        :
+        
+        Fixed a bug formatting ISO 8601 dates with negative two-digit time zones.
+       Thanks to Florian Barbera, Vila Bollain.</description></item><item><title>Apache XML Graphics Commons Code remove</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code remove
+        by
+        JM
+        :
+        
+        Removed dependency on com.sun classes to achieve compatibility with Apache Harmony,
+        OpenJDK and possibly other JVMs. 
+      </description></item><item><title>Apache XML Graphics Commons Code remove</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code remove
+        by
+        JM
+        :
+        
+        Removal of the deprecated TextHandler.drawString(String, float, float) method.
+      </description></item><item><title>Apache XML Graphics Commons Code update
+          (bug 49703)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code update
+        by
+        JM
+          (fixes bug 49703)
+        
+        :
+        
+        Various code style fixes
+       Thanks to Glenn Adams.</description></item><item><title>Apache XML Graphics Commons Code fix
+          (bug 49696)
+        </title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+          (fixes bug 49696)
+        
+        :
+        
+        Allow to override priority when registering an ImageWriter on the ImageWriterRegistry.
+       Thanks to Joshua Marquart.</description></item><item><title>Apache XML Graphics Commons Code fix</title><link>http://xmlgraphics.apache.org/commons//changes.html</link><description>Code fix
+        by
+        JM
+        :
+        
+        Fix for TIFFs which report zero as their resolution. This resulted in an exception.
+      </description></item></channel></rss>

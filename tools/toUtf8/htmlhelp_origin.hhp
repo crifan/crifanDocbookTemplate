@@ -1,0 +1,48 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=MPEG_VBR.chm
+Contents file=toc.hhc
+Default Window=Main
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x0804 Chinese (CHINA)
+Title=MPEG&#31616;&#20171; + &#22914;&#20309;&#35745;&#31639;CBR&#21644;VBR&#30340;MP3&#30340;&#25773;&#25918;&#26102;&#38388;
+Enhanced decompilation=No
+
+[WINDOWS]
+Main="MPEG&#31616;&#20171; + &#22914;&#20309;&#35745;&#31639;CBR&#21644;VBR&#30340;MP3&#30340;&#25773;&#25918;&#26102;&#38388;","toc.hhc",,"index.html","index.html",,,,,0x2520,,0x603006,,,,,,,,0
+
+
+[FILES]
+index.html
+pr01.html
+pr01s02.html
+ch01.html
+ch01s02.html
+ch01s03.html
+ch01s04.html
+ch01s05.html
+ch02.html
+ch02s02.html
+ch02s03.html
+ch02s04.html
+ch02s05.html
+ch02s06.html
+ch02s07.html
+ch02s08.html
+ch03.html
+ch03s02.html
+ch03s03.html
+ch04.html
+ch04s02.html
+ch05.html
+ch05s02.html
+ch05s03.html
+ch06.html
+ch06s02.html
+ch06s03.html
+ch06s04.html
+ch07.html
+bi01.html

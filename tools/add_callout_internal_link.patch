@@ -1,0 +1,57 @@
+diff -ruNa docbook-xsl-ns-1.77.0_orig/fo/callout.xsl docbook-xsl-ns-1.77.0/fo/callout.xsl
+--- docbook-xsl-ns-1.77.0_orig/fo/callout.xsl	2012-05-20 12:55:06.000000000 +0800
++++ docbook-xsl-ns-1.77.0/fo/callout.xsl	2012-06-05 00:02:36.079036400 +0800
+@@ -86,9 +86,16 @@
+ 
+ <xsl:template match="d:co">
+   <fo:inline>
+-    <xsl:call-template name="anchor"/>
+-    <xsl:apply-templates select="." mode="callout-bug"/>
+-  </fo:inline>
++      <fo:basic-link>
++        <xsl:if test="@linkends">
++          <xsl:attribute name="internal-destination">
++          <xsl:value-of select="@linkends"/>
++          </xsl:attribute>
++        </xsl:if>
++        <xsl:call-template name="anchor"/>
++        <xsl:apply-templates select="." mode="callout-bug"/>
++      </fo:basic-link>
++    </fo:inline>
+ </xsl:template>
+ 
+ <xsl:template match="d:coref">
+@@ -111,8 +118,15 @@
+     </xsl:when>
+     <xsl:otherwise>
+       <fo:inline>
+-        <xsl:call-template name="anchor"/>
+-        <xsl:apply-templates select="$co" mode="callout-bug"/>
++        <fo:basic-link>
++          <xsl:if test="@linkend">
++            <xsl:attribute name="internal-destination">
++              <xsl:value-of select="@linkend"/>
++            </xsl:attribute>
++          </xsl:if>
++          <xsl:call-template name="anchor"/>
++          <xsl:apply-templates select="$co" mode="callout-bug"/>
++        </fo:basic-link>
+       </fo:inline>
+     </xsl:otherwise>
+   </xsl:choose>
+diff -ruNa docbook-xsl-ns-1.77.0_orig/fo/lists.xsl docbook-xsl-ns-1.77.0/fo/lists.xsl
+--- docbook-xsl-ns-1.77.0_orig/fo/lists.xsl	2012-05-20 12:55:04.000000000 +0800
++++ docbook-xsl-ns-1.77.0/fo/lists.xsl	2012-06-05 00:02:55.257133300 +0800
+@@ -1354,7 +1354,12 @@
+       <xsl:text>: ???</xsl:text>
+     </xsl:when>
+     <xsl:when test="local-name($target)='co'">
++      <fo:basic-link>
++        <xsl:attribute name="internal-destination">
++          <xsl:value-of select="$arearef"/>
++        </xsl:attribute>
+       <xsl:apply-templates select="$target" mode="callout-bug"/>
++      </fo:basic-link>
+     </xsl:when>
+     <xsl:when test="local-name($target)='areaset'">
+       <xsl:call-template name="callout-bug">

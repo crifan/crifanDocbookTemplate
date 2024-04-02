@@ -1,0 +1,5 @@
+﻿从xml生成xsl：
+在cygwin下面，当前路径：/home/CLi/develop/docbook/config/docbook-xsl-ns-1.78.1/webhep
+
+for docbook-xsl-ns-1.78.1:
+xsltproc --output titlepage.templates_crl.xsl E:/Dev_Root/docbook/tools/docbook-xsl-ns-1.78.1/template/titlepage.xsl titlepage.templates_crl.xml

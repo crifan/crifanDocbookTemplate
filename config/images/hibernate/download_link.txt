@@ -1,0 +1,3 @@
+http://docs.jboss.org/hibernate/orm/4.1/devguide/en-US/html/images/org/hibernate/docbook/
+
+http://docs.jboss.org/hibernate/orm/4.1/devguide/en-US/html/images/community/docbook/

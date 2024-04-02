@@ -1,0 +1,38 @@
+/*
+ * about html color and corresponding name  can refer: 
+ * http://www.w3schools.com/html/html_colornames.asp
+ */
+
+/* programlisting */
+pre.programlisting {
+/* background-color: #F4F4F4 ; */
+  background-color: Lavender ;
+  border: 1px solid #006600 ;
+}
+
+/* screen */
+pre.screen {
+/* background-color: #F4F4F4 ; */
+  background-color: Lavender ;
+  border: 1px solid #006600 ;
+}
+
+/* equation */
+div.equation {
+/* background-color: #F4F4F4 ; */
+  background-color: Lavender ;
+  border: 1px solid #006600 ;
+}
+
+
+/* table */
+/* thead=table header */
+thead {
+  background-color: antiquewhite ;
+}
+
+/* QandA: Question and Answer */
+tr.question
+{
+  background-color: antiquewhite ;
+}

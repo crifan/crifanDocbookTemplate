@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--============================================================================
+Entity
+=============================================================================-->
+<!-- refer: http://docbook.org/docs/howto/#faq-authoring-general-entities -->
+<!-- <!ENTITY % allent SYSTEM "http://www.w3.org/2003/entities/2007/w3centities-f.ent">%allent; -->
+<!ENTITY % allent SYSTEM "w3centities-f.ent">%allent;
+
+<!-- some math related special char, can refer: http://barzilai.org/math_sym.htm -->
+
+<!--============================================================================
+Page Setting
+=============================================================================-->
+<!ENTITY page_width "8.26in">
+<!ENTITY page_height "11in">
+
+<!--============================================================================
+Color Definition
+=============================================================================-->
+<!-- 
+http://www.on-the-matrix.com/webtools/HtmlColorCodes.aspx
+http://www.w3schools.com/html/html_colornames.asp
+http://www.html-color-names.com/color-chart.php
+-->
+<!-- <!ENTITY bgcolor_blue "<?dbhtml bgcolor='#0000FF' ?><?dbfo bgcolor='#0000FF' ?>"> -->
+
+<!ENTITY bgcolor_red "<?dbhtml bgcolor='red' ?><?dbfo bgcolor='red' ?>">
+
+<!ENTITY bgcolor_blue "<?dbhtml bgcolor='blue' ?><?dbfo bgcolor='blue' ?>">
+<!ENTITY bgcolor_aqua "<?dbhtml bgcolor='aqua' ?><?dbfo bgcolor='aqua' ?>">
+<!ENTITY bgcolor_turquoise "<?dbhtml bgcolor='turquoise' ?><?dbfo bgcolor='turquoise' ?>">
+
+<!ENTITY bgcolor_green "<?dbhtml bgcolor='green' ?><?dbfo bgcolor='green' ?>">
+<!ENTITY bgcolor_palegreen "<?dbhtml bgcolor='palegreen' ?><?dbfo bgcolor='palegreen' ?>">
+
+<!ENTITY bgcolor_yellow "<?dbhtml bgcolor='yellow' ?><?dbfo bgcolor='yellow' ?>">
+<!ENTITY bgcolor_orange "<?dbhtml bgcolor='orange' ?><?dbfo bgcolor='orange' ?>">
+<!ENTITY bgcolor_bisque "<?dbhtml bgcolor='bisque' ?><?dbfo bgcolor='bisque' ?>">
+
+<!ENTITY bgcolor_gray "<?dbhtml bgcolor='gray' ?><?dbfo bgcolor='gray' ?>">
+<!ENTITY bgcolor_silver "<?dbhtml bgcolor='silver' ?><?dbfo bgcolor='silver' ?>">
+<!ENTITY bgcolor_lightgray "<?dbhtml bgcolor='lightgray' ?><?dbfo bgcolor='lightgray' ?>">
+<!ENTITY bgcolor_ivory "<?dbhtml bgcolor='ivory' ?><?dbfo bgcolor='ivory' ?>">

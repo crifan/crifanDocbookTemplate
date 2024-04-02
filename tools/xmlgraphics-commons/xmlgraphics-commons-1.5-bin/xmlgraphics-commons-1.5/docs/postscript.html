@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="Apache Forrest" name="Generator">
+<meta name="Forrest-version" content="0.10-dev">
+<meta name="Forrest-skin-name" content="pelt">
+<title>Tools for Adobe PostScript</title>
+<link type="text/css" href="skin/basic.css" rel="stylesheet">
+<link media="screen" type="text/css" href="skin/screen.css" rel="stylesheet">
+<link media="print" type="text/css" href="skin/print.css" rel="stylesheet">
+<link type="text/css" href="skin/profile.css" rel="stylesheet">
+<script src="skin/getBlank.js" language="javascript" type="text/javascript"></script><script src="skin/getMenu.js" language="javascript" type="text/javascript"></script><script src="skin/fontsize.js" language="javascript" type="text/javascript"></script>
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body onload="init()">
+<script type="text/javascript">ndeSetTextSize();</script>
+<div id="top">
+<!--+
+    |header
+    +-->
+<div class="header">
+<!--+
+    |start group logo
+    +-->
+<div class="grouplogo">
+<a href="http://xmlgraphics.apache.org/"><img class="logoImage" alt="xmlgraphics.apache.org" src="images/apache-xml-graphics.gif" title="Apache XML Graphics is responsible for the creation and maintenance of software for managing the conversion of XML formats to graphical output, and the creation and maintenance of related software components, based on software licensed to the Foundation"></a>
+</div>
+<!--+
+    |end group logo
+    +-->
+<!--+
+    |start Project Logo
+    +-->
+<div class="projectlogo">
+<a href="http://xmlgraphics.apache.org/commons/">Apache&trade; XML Graphics Commons</a>
+</div>
+<!--+
+    |end Project Logo
+    +-->
+<!--+
+    |start Search
+    +-->
+<div class="searchbox">
+<form action="http://www.google.com/search" method="get" class="roundtopsmall">
+<input value="xmlgraphics.apache.org" name="sitesearch" type="hidden"><input onFocus="getBlank (this, 'Search the site with google');" size="25" name="q" id="query" type="text" value="Search the site with google">&nbsp; 
+                    <input name="Search" value="Search" type="submit">
+</form>
+</div>
+<!--+
+    |end search
+    +-->
+<!--+
+    |start Tabs
+    +-->
+<ul id="tabs">
+<li class="current">
+<a class="selected" href="index.html">Home</a>
+</li>
+</ul>
+<!--+
+    |end Tabs
+    +-->
+</div>
+</div>
+<div id="main">
+<div id="publishedStrip">
+<!--+
+    |start Subtabs
+    +-->
+<div id="level2tabs"></div>
+<!--+
+    |end Endtabs
+    +-->
+<script type="text/javascript"><!--
+document.write("Last Published: " + document.lastModified);
+//  --></script>
+</div>
+<!--+
+    |breadtrail
+    +-->
+<div class="breadtrail">
+<a href="http://www.apache.org/">The Apache Software Foundation</a> &gt; <a href="http://xmlgraphics.apache.org/">Apache XML Graphics Project</a><script src="skin/breadcrumbs.js" language="JavaScript" type="text/javascript"></script>
+</div>
+<!--+
+    |start Menu, mainarea
+    +-->
+<!--+
+    |start Menu
+    +-->
+<div id="menu">
+<div onclick="SwitchMenu('menu_selected_1.1', 'skin/')" id="menu_selected_1.1Title" class="menutitle" style="background-image: url('skin/images/chapter_open.gif');">Apache&trade; XML Graphics Commons</div>
+<div id="menu_selected_1.1" class="selectedmenuitemgroup" style="display: block;">
+<div class="menuitem">
+<a href="index.html" title="Overview">Overview</a>
+</div>
+<div class="menuitem">
+<a href="download.html" title="Download">Download</a>
+</div>
+<div class="menuitem">
+<a href="http://www.apache.org/licenses">Apache License</a>
+</div>
+<div class="menuitem">
+<a href="http://www.apache.org/foundation/sponsorship.html">ASF Sponsorship Program</a>
+</div>
+<div class="menuitem">
+<a href="http://www.apache.org/foundation/thanks.html">ASF Thanks</a>
+</div>
+<div class="menuitem">
+<a href="http://www.apache.org/security/">Security</a>
+</div>
+<div onclick="SwitchMenu('menu_selected_1.1.7', 'skin/')" id="menu_selected_1.1.7Title" class="menutitle" style="background-image: url('skin/images/chapter_open.gif');">Documentation</div>
+<div id="menu_selected_1.1.7" class="selectedmenuitemgroup" style="display: block;">
+<div class="menupage">
+<div class="menupagetitle">Tools for Adobe PostScript</div>
+</div>
+<div class="menuitem">
+<a href="image-loader.html" title="Image Loader Framework">Image Loader Framework</a>
+</div>
+</div>
+<div onclick="SwitchMenu('menu_1.1.8', 'skin/')" id="menu_1.1.8Title" class="menutitle">Information</div>
+<div id="menu_1.1.8" class="menuitemgroup">
+<div class="menuitem">
+<a href="http://xmlgraphics.apache.org/mail.html" title="Information on Mailing Lists">Mailing Lists</a>
+</div>
+<div class="menuitem">
+<a href="http://xmlgraphics.apache.org/repo.html" title="Information on Code Repositories">Code Repositories</a>
+</div>
+<div class="menuitem">
+<a href="changes.html">Changes</a>
+</div>
+<div class="menuitem">
+<a href="bugs.html">Bugs</a>
+</div>
+</div>
+</div>
+<div id="credit"></div>
+<div id="roundbottom">
+<img style="display: none" class="corner" height="15" width="15" alt="" src="skin/images/rc-b-l-15-1body-2menu-3menu.png"></div>
+<!--+
+  |alternative credits
+  +-->
+<div id="credit2"></div>
+</div>
+<!--+
+    |end Menu
+    +-->
+<!--+
+    |start content
+    +-->
+<div id="content">
+<div title="Portable Document Format" class="pdflink">
+<a class="dida" href="postscript.pdf"><img alt="PDF -icon" src="skin/images/pdfdoc.gif" class="skin"><br>
+        PDF</a>
+</div>
+<div class="trail">Font size: 
+	          &nbsp;<input value="Reset" class="resetfont" title="Reset text" onclick="ndeSetTextSize('reset'); return false;" type="button">      
+	          &nbsp;<input value="-a" class="smallerfont" title="Shrink text" onclick="ndeSetTextSize('decr'); return false;" type="button">
+	          &nbsp;<input value="+a" class="biggerfont" title="Enlarge text" onclick="ndeSetTextSize('incr'); return false;" type="button">
+</div>
+<h1>Tools for Adobe PostScript</h1>
+<div id="front-matter">
+<div id="minitoc-area">
+<ul class="minitoc">
+<li>
+<a href="#overview">Overview</a>
+</li>
+<li>
+<a href="#generator">The PostScript generator</a>
+</li>
+<li>
+<a href="#java2d">Java2D: Graphics2D implementation for generating PostScript and EPS</a>
+</li>
+<li>
+<a href="#dsc">DSC parser/processor</a>
+</li>
+</ul>
+</div>
+</div> 
+    
+<a name="overview"></a>
+<h2 class="underlined_10">Overview</h2>
+<div class="section">
+<p>
+        Apache&trade; XML Graphics Commons contains various tools for writing and processing Adobe 
+        PostScript files. This includes:
+      </p>
+<ul>
+        
+<li>A PostScript generator class which helps writing PostScript files from scratch.</li>
+        
+<li>Two Graphics2D implementations, one for plain PostScript and one for writing 
+          Encapsulated PostScript (EPS).</li>
+        
+<li>A DSC-parser/processor: Parse, post-process and change DSC-compliant PostScript files.</li>
+      
+</ul>
+<div class="note">
+<div class="label">Note</div>
+<div class="content">
+        We don't currently include a PostScript interpreter though we would love to have one. A
+        Java-based PostScript interpreter to keep an eye on is the one from the
+        <a href="http://foray.sourceforge.net">FOray project</a>.
+      </div>
+</div>
+</div>
+    
+<a name="generator"></a>
+<h2 class="underlined_10">The PostScript generator</h2>
+<div class="section">
+<p>
+        The "PSGenerator" class can help writing PostScript files. It deals with things like
+        escaping, saving/tracking/restoring graphics state, writing DSC comments and tracking of
+        DSC resources.        
+      </p>
+<p>
+        You will rarely interact with the PS generator itself, as it is probably more interesting
+        to generate a PostScript file using Java2D which is described in the following section.
+      </p>
+</div>
+    
+<a name="java2d"></a>
+<h2 class="underlined_10">Java2D: Graphics2D implementation for generating PostScript and EPS</h2>
+<div class="section">
+<p>
+        We provide two classes (PSDocumentGraphics2D and EPSDocumentGraphics2D) which you can use
+        to generated complete PostScript files using normal Java2D means. The difference between
+        the two classes is that the EPS variant creates a fully compliant Encapsulated
+        PostScript file while the PS variant simply creates a normal DSC-compliant level 2 
+        PostScript file. It depends on your requirement which variant you choose. The PS variant
+        is mostly for printing purposes while the EPS variant is better suited for inclusion in
+        other documents.
+      </p>
+<a name="creating-eps"></a>
+<h3 class="underlined_5">Creating an EPS file</h3>
+<p>
+          Creating an EPS file using the Graphics2D implementation is easy. Instantiate
+          EPSDocumentGraphics2D, set a GraphicContext and set up the output document. Here's an
+          example:
+        </p>
+<pre class="code">
+import org.apache.xmlgraphics.java2d.ps.EPSDocumentGraphics2D;
+
+[..]
+
+EPSDocumentGraphics2D g2d = new EPSDocumentGraphics2D(false);
+g2d.setGraphicContext(new org.apache.xmlgraphics.java2d.GraphicContext());
+
+//Set up the document size
+g2d.setupDocument(out, 400, 200); //400pt x 200pt
+//out is the OutputStream to write the EPS to
+          
+g2d.drawRect(10, 10, 50, 50); //paint a rectangle using normal Java2D calls
+          
+g2d.finish(); //Wrap up and finalize the EPS file
+        </pre>
+<p>
+          A complete example for generating an EPS files can be found in the 
+          <a href="http://svn.apache.org/viewvc/xmlgraphics/commons/trunk/examples/java/java2d/ps/">"examples" directory</a>
+          in the distribution.
+        </p>
+</div>
+    
+<a name="dsc"></a>
+<h2 class="underlined_10">DSC parser/processor</h2>
+<div class="section">
+<p>
+        Many PostScript files use special comments to structure a document. This allows manipulation
+        of PostScript files without interpreting them. These special comments are defined in the
+        <a href="http://partners.adobe.com/public/developer/en/ps/5001.DSC_Spec.pdf">Document Structuring Conventions</a>.
+        The code in Commons is designed to work with DSC 3.0. For details on how DSC is used,
+        please take a look at the DSC specification.
+      </p>
+<p>
+        The DSC support in Commons was primarily developed to implement resource optimization
+        features in <a href="http://xmlgraphics.apache.org/fop/">Apache FOP</a>'s PostScript output support. Resources like
+        images which are used repeatedly in a document should not be written to the PostScript
+        file each time it is used. Instead it is written once at the beginning of the file as a 
+        PostScript form. The form is then called whenever the image needs painting. 
+      </p>
+<p>
+        But the DSC parser could potentially be used for other purposes. The most obvious is
+        extracting a subset of pages from a DSC-compliant file. Assume you want to print only
+        page 45 to 57 of a particular document. There's an example that demonstrates exactly this.
+        Check out the "examples" directory in the distribution. Other potential use cases for the 
+        DSC parser are:
+      </p>
+<ul>
+        
+<li>Patching PostScript files, for example, adding OMR marks for automatic packaging</li>
+        
+<li>
+<a href="http://en.wikipedia.org/wiki/Imposition">Imposition</a> (2-up, n-up, rotation, etc.)</li>
+        
+<li>EPS graphic extraction</li>
+        
+<li>Inspecting the page count</li>
+        
+<li>etc. etc.</li>
+      
+</ul>
+<p>
+        The DSC parser (DSCParser) was designed as a pull parser, i.e. you fetch new events from 
+        the parser inspecting them and acting on them as they are found. If you prefer to work 
+        with a push parser, you can pass the DSCParser a DSCHandler implementation and the parser
+        will send you all the events.
+      </p>
+<p>
+        The best example to understand how to use the DSC parser is the PageExtractor class
+        that implements the page extraction functionality mentioned above.
+      </p>
+<div class="note">
+<div class="label">Note</div>
+<div class="content">
+        The DSC parser is not considered feature-complete. The basic infrastructure is there but,
+        for example, not all DSC comments are available as concrete Java classes. If you need
+        to extend the DSC parser for your own use cases, please send us your patches.
+      </div>
+</div>
+</div>
+  
+</div>
+<!--+
+    |end content
+    +-->
+<div class="clearboth">&nbsp;</div>
+</div>
+<div id="footer">
+<!--+
+    |start bottomstrip
+    +-->
+<div class="lastmodified">
+<script type="text/javascript"><!--
+document.write("Last Published: " + document.lastModified);
+//  --></script>
+</div>
+<div class="copyright">
+        Copyright &copy;
+         2006-2012 <a href="http://www.apache.org/licenses/">The Apache Software Foundation.</a>
+<br>
+    Apache, Apache XML Graphics Commons, and the Apache feather logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners.
+  </div>
+<!--+
+    |end bottomstrip
+    +-->
+</div>
+</body>
+</html>

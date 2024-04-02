@@ -1,0 +1,193 @@
+/*
+* [Filename]
+* docbook_crl.css
+* 
+* [Function]
+* Crifan Li's custermization for docbook elements
+* 【记录】docbook中借鉴别人的css配置以制作自己的css：docbook_crl.css
+* http://www.crifan.com/docbook_refer_other_docbook_css_config_build_myself_docbook_crl_css_file
+* 
+* [Note]
+* 1. about html color and corresponding name  can refer: 
+* http://www.w3schools.com/html/html_colornames.asp
+*/
+
+/* equation */
+div.equation {
+/* background-color: #F4F4F4 ; */
+  background-color: Lavender ;
+  border: 1px solid #006600 ;
+}
+
+
+/* table */
+/* thead=table header */
+thead {
+  background-color: antiquewhite ;
+}
+
+/* QandA: Question and Answer */
+tr.question
+{
+  background-color: antiquewhite ;
+}
+
+/* http://www.badgers-in-foil.co.uk/projects/docbook-css/tests/inlines-gen.xml */
+
+/* give keycaps a '3D' shaded look */
+span.keycap {
+	padding-left: .2em;
+	padding-right: .2em;
+	border-style: solid;
+	border-top-width: 2px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 4px;
+	border-top-color: #eeeecc;
+	border-left-color: #eeeecc;
+	border-right-color: #999977;
+	border-bottom-color: #999977;
+	background-color: #ddddbb;
+	/* All these borders may interfere with text on the line bellow.  Make
+	   the text a little smaller to try and 'pull up' the bottom edge, */
+	font-size: smaller;
+}
+
+/* http://i.linuxtoy.org/docs/guide/ch27s21.html#docbook-css03 */
+/* http://i.linuxtoy.org/docs/guide/docbook.css */
+/* Emphasis */
+.emphasis {
+font-weight:bold;
+}
+
+/* Links */
+a:link { color: #22b;background:#E6E6FA;text-decoration: none; }
+a.ulink:link { font-weight: bold; color: #55f;background:#E6E6FA;text-decoration: none; }
+a:visited { color: #7e4988 ! important;background:#E6E6FA;text-decoration: none; }
+a:hover, a:focus { color: #d30e08 ! important;background:#E6E6FA;text-decoration: none; }
+a:active { color: #6b77b1 ! important;background:#E6E6FA;text-decoration: none;}
+
+
+/* http://svnweb.freebsd.org/doc/head/share/misc/docbook.css */
+
+div.example p b,
+.question,
+div.table p b,
+div.procedure p b {
+	color: #990000;
+}
+
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title,
+h3.author, .corpauthor,
+div.abstract div.abstract-title,
+div.toc div.toc-title,
+div.list-of-figures div.toc-title,
+div.list-of-tables div.toc-title,
+div.list-of-examples div.toc-title {
+	font-weight: bold;
+	line-height: 1.3;
+	margin-top: 1em;
+	margin-left: 0;
+	color: #990000;
+}
+
+
+body div {
+	margin: 0;
+}
+
+div.calloutlist dt {
+	float: left;
+	width: 1em;
+}
+
+div.calloutlist dd {
+	clear: right;
+	margin-bottom: 1ex;
+}
+
+.filename {
+	color: #007a00;
+}
+
+pre.screen {
+/*	white-space: pre; */
+	font-family: monospace;
+	padding: 1ex;
+	background-color: #edc;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	line-height: 1.1;
+}
+
+pre.programlisting {
+/*	white-space: pre; */
+	font-family: monospace;
+	padding: 1ex;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	line-height: 1.1;
+}
+
+/* admonitions */
+.note, .tip, .important, .warning, .caution, .example, div.procedure {
+	border-radius: 6px;
+	padding: 2ex 2ex;
+	margin: .75em 3em .75em 1em;
+        line-height: 1.3;
+}
+
+.note, div.procedure {
+	color: #222;
+	background: #eee;
+	border: 1px solid #ccc;
+	width: 90%;
+}
+
+.tip {
+	color: #004F00;
+	background: #d8ecd6;
+	border: 1px solid green;
+	width: 90%;
+}
+
+.important {
+	font-style:italic;
+	border: 1px solid #a00;
+	border-left: 12px solid #c00;
+}
+
+.warning {
+	color: #9F1313;
+	background: #f8e8e8;
+	border: 1px solid #e59595;
+	width: 90%;
+}
+
+.caution {
+	color: #3E3535;
+	background: #FFC;
+	border: 1px solid #e59595;
+	width: 90%;
+}
+
+.example {
+	background: #fefde6;
+	border: 1px solid #f1bb16;
+	margin: 1em 0;
+	padding: 0.2em 2em;
+	width: 90%;
+}
+
+.admontitle {
+	display: inline;
+	line-height: 1;
+	margin-right: 0;
+}
+
+.procedure-title {
+	font-weight: bold;
+        line-height: 1;
+        margin-right: 0;
+}
