@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<note 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_multi_format" >
+    <title>This article provide multiple formats:</title>
+    <informaltable align="center" frame="topbot">
+        <tgroup cols="7">
+        <colspec colnum="1" colname="col1" colwidth="3*"/>
+        <colspec colnum="2" colname="col2" colwidth="1*"/>
+        <colspec colnum="3" colname="col3" colwidth="1*"/>
+        <colspec colnum="4" colname="col4" colwidth="1*"/>
+        <colspec colnum="5" colname="col5" colwidth="1*"/>
+        <colspec colnum="6" colname="col6" colwidth="1*"/>
+        <colspec colnum="7" colname="col7" colwidth="1*"/>
+        <tbody>
+            <row>
+                <entry>Reading Online</entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/html/&cur_book_name;.html">HTML</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/htmls/index.html">HTMLs</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/pdf/&cur_book_name;.pdf">PDF</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/chm/&cur_book_name;.chm">CHM</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/txt/&cur_book_name;.txt">TXT</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/rtf/&cur_book_name;.rtf">RTF</link></entry>
+            </row>
+            <row>
+                <entry>Download(7Zip package)</entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/html/&cur_book_name;.html.7z">HTML</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/htmls/index.html.7z">HTMLs</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/pdf/&cur_book_name;.pdf.7z">PDF</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/chm/&cur_book_name;.chm.7z">CHM</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/txt/&cur_book_name;.txt.7z">TXT</link></entry>
+                <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/rtf/&cur_book_name;.rtf.7z">RTF</link></entry>
+            </row>
+        </tbody>
+        </tgroup>
+    </informaltable>
+    
+    <para>HTML version online address:</para>
+    <para><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/html/&cur_book_name;.html" /></para>
+    
+    <para>Any question or bug report are encouraged to post in the discussion group:</para>
+    <para><link xl:href="http://www.crifan.com/bbs/categories/&cur_book_name;/" /></para>
+</note>

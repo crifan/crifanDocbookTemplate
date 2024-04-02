@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<tip 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_multi_format" >
+
+    <title>本文提供多种格式供：</title>
+    <informaltable align="center" frame="topbot">
+        <tgroup cols="8">
+            <colspec colnum="1" colname="col1" colwidth="3*"/>
+            <colspec colnum="2" colname="col2" colwidth="1*"/>
+            <colspec colnum="3" colname="col3" colwidth="1*"/>
+            <colspec colnum="4" colname="col4" colwidth="1*"/>
+            <colspec colnum="5" colname="col5" colwidth="1*"/>
+            <colspec colnum="6" colname="col6" colwidth="1*"/>
+            <colspec colnum="7" colname="col7" colwidth="1*"/>
+            <colspec colnum="8" colname="col8" colwidth="1*"/>
+            <tbody>
+                <row>
+                    <entry>在线阅读</entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/html/&cur_book_name;.html">HTML</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/htmls/index.html">HTMLs</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/pdf/&cur_book_name;.pdf">PDF</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/chm/&cur_book_name;.chm">CHM</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/txt/&cur_book_name;.txt">TXT</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/rtf/&cur_book_name;.rtf">RTF</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/webhelp/index.html">WEBHELP</link></entry>
+                </row>
+                <row>
+                    <entry>下载（7zip压缩包）</entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/html/&cur_book_name;.html.7z">HTML</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/htmls/index.html.7z">HTMLs</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/pdf/&cur_book_name;.pdf.7z">PDF</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/chm/&cur_book_name;.chm.7z">CHM</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/txt/&cur_book_name;.txt.7z">TXT</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/rtf/&cur_book_name;.rtf.7z">RTF</link></entry>
+                    <entry><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/webhelp/&cur_book_name;.webhelp.7z">WEBHELP</link></entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </informaltable>
+    
+    <para>HTML版本的在线地址为：</para>
+    <para><link xl:href="http://www.crifan.com/files/doc/docbook/&cur_book_name;/release/html/&cur_book_name;.html" /></para>
+    
+    <para>有任何意见，建议，提交bug等，都欢迎去讨论组发帖讨论：</para>
+    <para><link xl:href="http://www.crifan.com/bbs/categories/&cur_book_name;/" /></para>
+</tip>

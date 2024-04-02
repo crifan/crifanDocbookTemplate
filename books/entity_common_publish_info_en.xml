@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<pubdate
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_pubdate">
+    &publish_date;
+</pubdate>
+    
+<author
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_author">
+    <personname>
+        <firstname>Crifan</firstname>
+        <surname>Li</surname>
+    </personname>
+</author>
+
+<releaseinfo
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_releaseinfo">
+    Version:<emphasis>v&release_version;</emphasis>
+</releaseinfo>
+    
+<copyright
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_copyright">
+    <year>&copyrith_year;</year>
+    <holder>Crifan</holder>
+    <holder><link xl:href="http://crifan.com" /></holder>
+</copyright>
+
+<legalnotice
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+
+    xml:id="common_legalnotice" >
+    <para>This article conform to:<link xl:href="http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html#cc_by_nc">Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)</link></para>
+</legalnotice>
