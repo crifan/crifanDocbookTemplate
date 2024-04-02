@@ -19,26 +19,24 @@ Crifan的Docbook的模板
 之前本身结构是：
 
 * tools是上一级目录
-
-即：
-
-* docbook
-  * ant
-  * config
-  * books
-* tools
+  ```bash
+  * docbook
+    * ant
+    * config
+    * books
+  * tools
+  ```
 
 现在为了统一整合，已移动tools到当前目录，变成：
 
 * tools是同级目录
-
-即：
-
-* crifanDocbookTemplate
-  * ant
-  * config
-  * books
-  * tools
+  ```bash
+  * crifanDocbookTemplate
+    * ant
+    * config
+    * books
+    * tools
+  ```
 
 ## 其他说明
 
